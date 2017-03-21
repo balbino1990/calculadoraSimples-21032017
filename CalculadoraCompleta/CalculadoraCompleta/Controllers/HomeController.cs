@@ -13,5 +13,11 @@ namespace CalculadoraCompleta.Controllers
         {
             return View();
         }
+
+        // POST: Home
+        public ActionResult Index(string bt)
+        {
+            return View();
+        }
     }
 }
